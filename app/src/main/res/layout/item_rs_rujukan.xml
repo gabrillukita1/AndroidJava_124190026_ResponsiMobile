@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp">
+    <TextView
+        android:id="@+id/tv_namaRS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RS Umum Daerah Majalaya"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/tv_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:layout_below="@id/tv_namaRS"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/tv_detailAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Alamat"
+        android:layout_toRightOf="@id/tv_alamat"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/tv_namaRS"
+        android:layout_marginLeft="10dp"/>
+    <Button
+        android:id="@+id/btn_maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_detailAlamat"
+        android:text="MAPS"/>
+
+
+</RelativeLayout>
